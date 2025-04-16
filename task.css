@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+  }
+  .left, .right {
+    flex: 1;
+    padding: 20px;
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .login-box {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  .login-box button {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    background: #fff;
+    cursor: pointer;
+  }
+  .order-summary {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  .order-summary h3, .order-summary p {
+    margin: 10px 0;
+  }
+  .promo-section {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #eee;
+  }
+  .promo-section input {
+    width: 70%;
+    display: inline-block;
+  }
+  .promo-section button {
+    width: 25%;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 5%;
+    background-color: #555;
+    color: white;
+    border: none;
+  }
+  .bag-summary img {
+    width: 100px;
+    margin-right: 10px;
+  }
+  .bag-summary {
+    display: flex;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  .bag-summary-details {
+    flex: 1;
+  }
